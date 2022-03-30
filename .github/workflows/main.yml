@@ -15,10 +15,10 @@ jobs:
         python-version: 3.6
     - name: Install dependencies
       run: |
-        CI/make install
+        cd CI && make install
     - name: Lint with pylint
       run: |
-        CI/make lint
+        cd CI && make lint
     - name: Test with pytest
       run: |
-        CI/make test
+        cd CI && make test
