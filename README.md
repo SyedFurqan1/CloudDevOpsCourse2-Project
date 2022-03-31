@@ -9,7 +9,6 @@ The aim of this project to demonstrate an end-to-end CI / CD flow.
 
 
 ## Project Plan
-<TODO: Project Plan
 
 * A link to a Trello board for the project: https://trello.com/invite/b/QkRP53px/c835ba18ab161e5494398dd80addde55/udacity-agile-development-project-board
 * A link to a spreadsheet that includes the project plan: https://docs.google.com/spreadsheets/d/1f0KdJScwRhtW5lg8h4wk-7vhdE2eQ_1NaFewiOOS6JY/edit?usp=sharing
