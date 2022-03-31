@@ -1,7 +1,5 @@
 # CloudDevOpsCourse2-Project
 
-[![Python application test with Github Actions](https://github.com/SyedFurqan1/CloudDevOpsCourse2-Project/actions/workflows/main.yml/badge.svg)](https://github.com/SyedFurqan1/CloudDevOpsCourse2-Project/actions/workflows/main.yml)
-
 # Overview
 
 The aim of this project to demonstrate an end-to-end CI / CD flow. 
@@ -11,6 +9,7 @@ The aim of this project to demonstrate an end-to-end CI / CD flow.
 
 
 ## Project Plan
+<TODO: Project Plan
 
 * A link to a Trello board for the project: https://trello.com/invite/b/QkRP53px/c835ba18ab161e5494398dd80addde55/udacity-agile-development-project-board
 * A link to a spreadsheet that includes the project plan: https://docs.google.com/spreadsheets/d/1f0KdJScwRhtW5lg8h4wk-7vhdE2eQ_1NaFewiOOS6JY/edit?usp=sharing
@@ -79,6 +78,18 @@ We have also integrated CD using Azure Pipelines - the flow has been defined in 
 
 ![alt text](https://github.com/SyedFurqan1/CloudDevOpsCourse2-Project/blob/main/misc_images/azure_devops_pipeline_successful_deployment.png?raw=true)
 
+## Additional load testing on live application
+
+In this section we can do some additional load testing using python package called locust (Optional).
+
+There is a file called ``` locustfile.py ``` which can be run through a simple command; 
+
+``` locust -f locustfile.py ``` which will start a local service in your environment. The default port for this application is port ``` 8089 ```. In the example image below - we have ran a load test of around 10 users and the spawn rate of user per second is set to 1.
+
+![alt text](https://github.com/SyedFurqan1/CloudDevOpsCourse2-Project/blob/main/misc_images/locust_test_screenshot.png?raw=true)
+
+
+(Optionally) There is also a commands.sh script through which you can provide the name of your virtual environment, your app service name and it will spin up your flask application on the Azure App Service. This script will also display the URL on which your web service will be hosted on.
 
 
 ## Enhancements
@@ -87,6 +98,6 @@ To further improve this project in the future - we will be adding further testin
 
 ## Demo 
 
-Youtube Demo Link: https://youtu.be/Lq2spES-wmA
+<TODO: Add link Screencast on YouTube>
 
 
