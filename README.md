@@ -1,5 +1,7 @@
 # CloudDevOpsCourse2-Project
 
+[![Python application test with Github Actions](https://github.com/SyedFurqan1/CloudDevOpsCourse2-Project/actions/workflows/main.yml/badge.svg)](https://github.com/SyedFurqan1/CloudDevOpsCourse2-Project/actions/workflows/main.yml)
+
 # Overview
 
 The aim of this project to demonstrate an end-to-end CI / CD flow. 
