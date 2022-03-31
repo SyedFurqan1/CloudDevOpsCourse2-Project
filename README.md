@@ -21,7 +21,6 @@ The aim of this project to demonstrate an end-to-end CI / CD flow.
 
 The project is designed to be ran on Azure App Service as a simple Flask webapp. The simple ways to get this project up and running is to simply clone this repository in Azure Cloud Shell or any environment where you have Azure  CLI available. 
 
-<IMAGE OF REPOSITORY CLONED IN AZURE CLOUD SHELL>
 ![alt text](https://github.com/SyedFurqan1/CloudDevOpsCourse2-Project/blob/main/misc_images/project_cloned_in_azure_cloud_shell.png?raw=true)
 
 Once you have the repository cloned - you can first try to run the flask webapp by these simple commands;
